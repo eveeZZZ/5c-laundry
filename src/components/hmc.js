@@ -4,7 +4,7 @@ const hmc = () => {
     return (
         <div>
       <Navbar />
-      <div>This is Harvey Mudd</div>
+      <div><h1>This is  HMC</h1></div>
 
     </div>
     )

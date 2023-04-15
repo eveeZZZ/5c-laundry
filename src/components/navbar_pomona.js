@@ -46,7 +46,7 @@ const NavbarPom = () => {
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#"> Pomona College <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">Timer</a></li>
+                        <li><a href="/"><Link to="/timer">Timer</Link></a></li>
                         <li><a href="#">Map</a></li>
                         {/* <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"

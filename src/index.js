@@ -20,12 +20,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path="/" element={<HomePage />}></Route>
       <Route path="/live-map" element={<LiveMap />} />
       <Route path="/live-pom" element={<PomMap />} />
-
       <Route path="/hmc" element={<hmc />} />
       <Route path="/cmc" element={<cmc />} />
-      <Route path="/po" element={<po />} />
+      <Route path="/live-pom" element={<PomMap />} />
       <Route path="/scs" element={<scs />} />
       <Route path="/ptz" element={<ptz />} />
+      <Route path="/timer" element={<timer />} />
+
+      
 
 
        // In this step, we'll create a 'catch-all' route for any other url patterns that users may accidentally go to. As mentioned in the previous step, this will not catch if the user inputs a symbol in our dynamic path that is not case matched or doesn't exist in our coin list (like /coinDetails/btc instead of /coinDetails/BTC) but it will catch cases of going to an absolute path that doesn't exist, like going to /coinDetail/... instead of /coinDetails/... or other similar cases.

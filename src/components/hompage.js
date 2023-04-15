@@ -12,7 +12,7 @@ const HomePage = () => {
         <Link to="/hmc">
         <button class = "HPbutton" id = "HMC">HMC</button>
                     </Link>
-        <Link to="/PO">
+        <Link to="/live-pom">
         <button class = "HPbutton" id = "PO">POMONA</button>
                     </Link>
         <Link to="/cmc">
