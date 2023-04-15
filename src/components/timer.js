@@ -26,7 +26,7 @@ const Timer = ({ initialTime }) => {
                     <div className="countdown-box-timer">
                         <h2>In Washer #1</h2>
                         <div className="count-time">
-                            <h3>{formatTime()}</h3>
+                            <h1>{formatTime()}</h1>
                         </div>
                     </div>
                 </div>

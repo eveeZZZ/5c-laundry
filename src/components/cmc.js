@@ -4,7 +4,7 @@ const cmc = () => {
     return (
         <div>
       <Navbar />
-      <div>This is  CMC</div>
+      <div><h1>This is  CMC</h1></div>
 
     </div>
     )

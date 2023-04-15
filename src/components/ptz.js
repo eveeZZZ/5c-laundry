@@ -4,7 +4,7 @@ const ptz = () => {
     return (
         <div>
       <Navbar />
-      <div>This is Pitzer</div>
+      <div><h1>This is  Pitzer</h1></div>
 
     </div>
     )

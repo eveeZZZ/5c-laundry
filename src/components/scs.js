@@ -4,7 +4,7 @@ const scs = () => {
     return (
         <div>
       <Navbar />
-      <div>This is SCS</div>
+      <div><h1>This is  Scripps</h1></div>
 
     </div>
     )
