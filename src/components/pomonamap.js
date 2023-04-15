@@ -1,5 +1,7 @@
 import NavbarPom from "./navbar_pomona"
 import "../css/pomonamap.css"
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 
 const PomMap = () => {
     return (
@@ -8,6 +10,7 @@ const PomMap = () => {
             <div className="all-dorms">
                 <div className="harwood-whole-box">
                     <h2>Harwood</h2>
+                    <Link className="nav-link" to="/countdown-pom">
                     <div className="harwood-laundry-box">
                         <div className="harwood-column-1">
                             <div className="harwood-washer-title"> Washer </div>
@@ -32,6 +35,8 @@ const PomMap = () => {
                             </div>
                         </div>
                     </div>
+                    </Link>
+
 
 
 

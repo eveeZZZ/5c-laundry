@@ -42,8 +42,7 @@
 }
 
 .harwood-laundry-item.red {
-    background: #FD7366
-    ;
+    background: #FD7366;
 }
 
 .harwood-column-1,
@@ -64,4 +63,115 @@
     display: flex;
     flex-wrap: wrap;
     column-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown-box {
+    width: 160px;
+    height: 98px;
+    left: 24px;
+    top: 330px;
+
+    /* Gray/01 */
+
+    background: #F6F6F6;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0.2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown-box h3 {
+    margin-top: 1px;
+    text-align: center;
+}
+
+.countdown-box-cover {
+    display: flex;
+    column-gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    background: #F6F6F6;
+}
+
+.countdown-box.red {
+    background: #FD7366;
+}
+
+.countdown-box.green {
+    background: #24CE85;
+}
+
+.countdown-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lyon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.countdown-clock {
+    margin-top: 10px;
+    padding: 6px;
+    background: #F6F6F6;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0.7rem;
+}
+
+.countdown-box.yellow {
+    background: #FCCB82
+}
+
+.countdown-box-timer {
+    padding: 50px;
+    left: 24px;
+    top: 330px;
+    background: #F6F6F6;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0.7rem;
+}
+
+.countdown-box-timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown-timer-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .count-time {
+    background: #F6F6F6;
+} */
+
+.washers-box,
+.dryers-box {
+    background: #F6F6F6;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.timer-whole-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

@@ -44,3 +44,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar .container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navbar-brand {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.nav a {
+  font-weight: bold;
+}

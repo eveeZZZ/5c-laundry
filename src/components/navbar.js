@@ -1,31 +1,5 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-// const Navbar = () => {
-//   return (
-//     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-//       <div className="container-fluid">
-//         <Link className="navbar-brand" to="/">
-//           5C Laundry
-//         </Link>
-//         <div className="collapse navbar-collapse" id="navbarNav">
-//           <ul className="navbar-nav">
-//             <li className="nav-item">
-//               <Link className="nav-link" to="/">
-//                 Home
-//               </Link>
-//             </li>
-//             <li className="nav-item">
-//               <Link className="nav-link" to="/about">
-//                 About
-//               </Link>
-//             </li>
-//           </ul>
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// };
-
 const Navbar = () => {
     return (
         <nav class="navbar navbar-default">
@@ -45,11 +19,13 @@ const Navbar = () => {
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#"><Link className="nav-link" to="/live-map">
+                        {/* <li class="active"><a href="#"><Link className="nav-link" to="/live-map">
                         Live Map
                     </Link> <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">Link</a></li>
-                        <li class="dropdown">
+                        <li><Link className="nav-link" to="/live-map">
+                        Live Map
+                    </Link></li> */}
+                        {/* <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                                 aria-expanded="false">Dropdown <span class="caret"></span></a>
                             <ul class="dropdown-menu">
@@ -61,7 +37,7 @@ const Navbar = () => {
                                 <li role="separator" class="divider"></li>
                                 <li><a href="#">One more separated link</a></li>
                             </ul>
-                        </li>
+                        </li> */}
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
