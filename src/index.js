@@ -3,15 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import LiveMap from './components/livemap';
+import HomePage from './components/hompage';
+// import Layout from './routes/Layout';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+    <BrowserRouter>
+      <Routes>
+      <Route path="/" element={<LiveMap />}>
+        <Route path="/live-map" element={<App />} />
+      </Route>
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+        // In this step, we'll create a 'catch-all' route for any other url patterns that users may accidentally go to. As mentioned in the previous step, this will not catch if the user inputs a symbol in our dynamic path that is not case matched or doesn't exist in our coin list (like /coinDetails/btc instead of /coinDetails/BTC) but it will catch cases of going to an absolute path that doesn't exist, like going to /coinDetail/... instead of /coinDetails/... or other similar cases.
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode>,
+)
