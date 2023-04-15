@@ -6,6 +6,39 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.HPbutton {
+  width: 200px;
+  height: 500px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin : 30px;
+  border : 0px;
+  border-radius : 20px;
+}
+#HMC{
+  background-color : rgb(234, 170, 0);
+  color: white;
+
+}
+#PO{
+  background-color:  rgb(57, 120, 220);
+  color : white;
+}
+#PTZ{
+  background-color : rgb(247, 130, 29);
+  color : white;
+}
+#CMC{
+  background-color : rgb(218, 44, 70);
+  color: white;
+
+}
+#SCS{
+  background-color : rgb(74, 165, 131);
+  color: white;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
