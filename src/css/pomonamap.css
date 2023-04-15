@@ -1,0 +1,67 @@
+.harwood-laundry-box {
+    /* position: absolute; */
+    width: 150px;
+    height: 98px;
+    left: 24px;
+    top: 330px;
+
+    /* Gray/01 */
+
+    background: #F6F6F6;
+    border-radius: 8px;
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    column-gap: 0.7rem;
+}
+
+.harwood-laundry-box-item {
+    /* position: absolute; */
+    width: 20px;
+    height: 18px;
+    left: 38px;
+    top: 201px;
+
+    background: #FD7366;
+    border-radius: 4px;
+}
+
+.harwood-laundry-box .washer,
+.harwood-laundry-box .dryer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.7rem;
+    row-gap: 0.7rem;
+}
+
+.harwood-laundry-box-item.green {
+    background: #24CE85;
+}
+
+.harwood-laundry-item.red {
+    background: #FD7366
+    ;
+}
+
+.harwood-column-1,
+.harwood-column-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.harwood-whole-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all-dorms {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+}
